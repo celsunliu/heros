@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tttheros.component.css']
 })
 export class TttherosComponent implements OnInit {
+  testmsg: string;
 
   constructor() { }
 
   ngOnInit() {
+    this.testmsg="222222222";
   }
+
 
 }
